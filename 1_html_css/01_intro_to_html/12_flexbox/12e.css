@@ -1,0 +1,35 @@
+p {
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 300px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.notif-count {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+}

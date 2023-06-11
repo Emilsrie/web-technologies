@@ -1,0 +1,57 @@
+p, 
+div {
+  font-family: Arial;
+}
+
+p {
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.red-box {
+  background-color: lightpink;
+}
+
+.blue-box {
+  background-color: lightblue;
+}
+
+.black-item-box {
+  background-color: black;
+  color: white;
+}
+
+/* 13a */
+.red-box-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+
+.blue-box-a {
+  width: 200px;
+}
+
+/* 13b */
+.red-box-b {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+
+.blue-box-b {
+  width: 200px;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-between;
+}

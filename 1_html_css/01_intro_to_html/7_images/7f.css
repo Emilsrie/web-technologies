@@ -1,0 +1,43 @@
+p {
+  font-family: Arial;
+  margin-left: 10px;
+  color: rgb(100, 100, 100);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.input-field {
+  font-size: 16px;
+  border-width: 2px;
+  padding-top: 7px; 
+  padding-bottom: 7px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-color: rgb(100, 100, 100);
+  border-radius: 5px;
+  border-style: solid;
+}
+
+
+.email-text{
+  font-size: 16px;
+  margin-bottom: 7px
+}
+
+.disclamer {
+  font-size: 16px;
+  margin-bottom: 15px
+}
+
+.join-button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 400px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 50px;
+  border: none;
+  background-color: #0a66c2;
+}

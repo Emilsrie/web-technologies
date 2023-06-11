@@ -1,0 +1,35 @@
+p {
+  font-weight: bold;
+}
+
+.blue-box {
+  background-color: lightblue;
+}
+
+.red-box {
+  background-color: lightpink;
+}
+
+/* 11a */
+.box-a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 50px;
+}
+
+/* 11b */
+.box-b {
+  display: grid;
+  grid-template-columns: 50px 50fr 75px;
+  margin-bottom: 50px;
+}
+
+/* 11c */
+.box-c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 50px;
+}
+
