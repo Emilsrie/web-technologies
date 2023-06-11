@@ -1,0 +1,18 @@
+All files have been created by learning tutorial from:
+https://youtu.be/SBmSRK3feww
+
+Strings:
+Escape character: \' is concidered a single character that counts as nothing
+'I\'m learing JavaScript' would display as 'I'm learning JavaScript'
+
+TEMPLATE STRINGS
+`template string` allows to input values directly into a string
+`Items (${1 + 1}): $${(2095 + 799) / 100}`
+
+Multiline strings:
+`some
+text` creates 'some\ntext'
+
+To put JavaScript in html we do the same as adding <style>, but instead of head it's put into <body>
+<script></script>
+it is put at the boddom of <body> because we want to create the website first and then use JS to make it interactive
