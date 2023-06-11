@@ -10,5 +10,5 @@ Based on [HTML and CSS tutorial](https://youtu.be/G3e-cpL7ofc) by [SuperSimpleDe
 01_intro_to_html\
 Contains exercises for learning HTML and CSS concepts
 
-01_my_own_youtube\
+02_my_own_youtube\
 Contains a website design inspired by YouTube video sharing platform
