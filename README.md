@@ -1,5 +1,5 @@
 ## Created YouTube clone with responsive elements
-Based on [HTML and CSS tutorial](https://youtu.be/G3e-cpL7ofc) by [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)\
+Based on [HTML and CSS tutorial](https://youtu.be/G3e-cpL7ofc) by [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)
 
 1. Example: screen width bigger than 1000 pixels
 ![Example 1](1_html_css/finished_website_images/youtube_clone_example_1.jpg)
