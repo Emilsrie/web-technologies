@@ -1,4 +1,5 @@
-Created YouTube clone with responsive elements
+Created YouTube clone with responsive elements\
+[Based on tutorial by SuperSimpleDev:](https://youtu.be/G3e-cpL7ofc)
 
 ![Example 1](1_html_css/finished_website_images/youtube_clone_example_1.jpg)
 
