@@ -1,0 +1,109 @@
+All files have been created by learning tutorial from:
+https://youtu.be/G3e-cpL7ofc
+
+LEARN: PHP, CSS, React, MySQL (Scandiweb)
+LEARN: Bootstrap, Javascript (from me)
+
+COMMENTS:
+HTML: <!-- Comment -->
+CSS: /* Comment */
+
+HTML has 3 types of elemets:
+1. block element – takes up the entire line
+  Example – <p> <div>
+
+  # To change to inline-block
+  .video-author,
+  .video-stats {
+    display: inline-block;
+  }
+
+2. inline-block element – only takes as much space as it needs to
+  Examples – <img> <input>
+
+
+3. inline element – appear within a line of text
+  Exampel – <strong>
+
+
+
+Nested Layouts Technique:
+1. vertical Layout _
+                   _
+                   _
+2. horizontal layout |||
+
+font-family: 2nd, 3rd and so on are backup fonts if the 1st one doesnt't load for some reason
+
+
+For grid:
+1fr means 1 free space, which takes up the remaining space
+the number in front of it means how much relatively it takes up the space
+
+For flexbox:
+flex: 1; is the equvalent of 1fr
+
+For position:
+default position is static
+position: fixed – element doesn't move with page scroll
+
+For absolute position:
+Differences with position: fixed:
+fixed = placed in the browser window (doesn't move)
+absolute = placed on the page (does move) (use to put things in corners of other things)
+
+z-index = determines which elements appear
+in front and which behind. Default is 0. Elements with
+higher z index appear in front of elements with lower one
+
+For relative position:
+displays elemet as normal, except if we put abs element in it, it will
+position itself relative to the first element instead relative of the page
+
+Absolute position inside relative position
+
+Font boldness:
+400 – normal
+500 – semi-bold
+700 – bold
+
+
+New type of selector
+.sidebar-link img {}
+this targets only images in .sidebar-link
+
+white-space: nowrap – prevents the text from wrapping
+
+
+/* CSS Shorthand properties 
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px; 
+  
+  is the same as
+
+    padding: 4px - targets all;
+    padding: 4px 10px – 4px targets top and bottom (vertical padding), 10px targets left and right (horizontal padding)
+    padding: 4px 10px 20px 30px – top, right, bottom, left
+
+  same for margin
+
+  for border it is:
+  border: width style color
+*/
+
+INHERITENCE:
+if you set style for the outer elemet, it will get inherited down to the inner elemets
+it mostly just works with text properties
+not all properties are inherited: boder
+
+
+SEMANTIC ELEMENTS:
+<header></header>
+<nav></nav> – navigation
+<main></main> – contains main contents of the website
+main can contain multiple <section></section> elements
+
+work the same name as <div> but have special meanign to screen readings, seach engines, or any kind of device or robot that reads the website
+it helps recognise the structure of the website correctly
